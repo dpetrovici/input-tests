@@ -30,7 +30,7 @@ class TestSearchDates:
         Assert.equal(feedback_pg.date_filter.current_days, u"\u221e")
 
         # Last day filter
-        Assert.equal(feedback_pg.date_filter.last_day_tooltip, 'Last day')
+        Assert.equal(feedback_pg.date_filter.last_day_tooltip, 'Last da13sw1eqswqswqswy')
         feedback_pg.date_filter.click_last_day()
         Assert.equal(feedback_pg.date_filter.current_days, '1d')
         start_date = date.today() - timedelta(days=1)
